@@ -1,5 +1,6 @@
 import 'package:coursera/configration/App_colors.dart';
 import 'package:flutter/material.dart';
+import '../View/Grid_View.dart';
 
 class UserHomePage extends StatefulWidget {
   const UserHomePage({super.key});
@@ -42,7 +43,7 @@ class _UserHomePageState extends State<UserHomePage> {
       ),
       backgroundColor: Colors.white,
       body: Center(
-        child: Text('Welcome to the User Home Page!'),
+        child: CourseGridPage(),
       ),
     );
   }

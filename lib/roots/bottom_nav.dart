@@ -25,7 +25,7 @@ class _BottomNavState extends State<BottomNav> {
       body: _selectedIndex == 0
           ? const UserHomePage()
           : _selectedIndex == 1
-          ? const ExplorePage()
+          ? ExplorePage()
           : _selectedIndex == 2
           ? const BookMarkPage()
           : const Center(
